@@ -16,7 +16,6 @@ final class APICaller {
         static let topHeadlinesURL = URL(string:
                 "https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=b55b692d429e4b71837512f842cc9728" )
         static let searchURLString =        "https://newsapi.org/v2/everything?from=2024-01-19&sortBy=publishedAt&apiKey=b55b692d429e4b71837512f842cc9728&q="
-        
     }
     
     private init() {}
